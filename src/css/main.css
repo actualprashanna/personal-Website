@@ -23,7 +23,7 @@ body {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   color: #008080;
   font-size: 72px;
   font-weight: 500;
@@ -31,18 +31,18 @@ body {
 
 .page_wrapper header .title .left {
   -webkit-transform: translate(-55%, 50%);
-          transform: translate(-55%, 50%);
+  transform: translate(-55%, 50%);
 }
 
 .page_wrapper header .title .right {
   color: #171717;
   -webkit-transform: translate(55%, -50%);
-          transform: translate(55%, -50%);
+  transform: translate(55%, -50%);
 }
 
 .page_wrapper header [class^="sub-title"] {
   font-size: 32px;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .page_wrapper header .sub-title-top {
@@ -50,7 +50,7 @@ body {
   left: 25%;
   top: 38%;
   -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  transform: translateX(-100%);
   color: #f3f3f3;
 }
 
@@ -60,4 +60,5 @@ body {
   top: 56%;
   color: #171717;
 }
+
 /*# sourceMappingURL=main.css.map */
