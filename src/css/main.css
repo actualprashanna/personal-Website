@@ -24,14 +24,13 @@ body {
 }
 
 .page_wrapper header .title .left {
-  font-weight: 100;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
+  -webkit-transform: translate(-55%, 50%);
+          transform: translate(-55%, 50%);
 }
 
 .page_wrapper header .title .right {
   color: #171717;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translate(55%, -50%);
+          transform: translate(55%, -50%);
 }
 /*# sourceMappingURL=main.css.map */

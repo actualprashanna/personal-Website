@@ -20,12 +20,12 @@ body {
             font-size: 72px;
             font-weight: 900;
             .left {
-                font-weight: 100;
-                transform: translateX(-100%);
+                //font-weight: 100;
+                transform: translate(-55%, 50%);
             }
             .right {
                 color: $dark;
-                transform: translateX(100%);
+                transform: translate(55%, -50%);
             }
         }
     }
