@@ -1,0 +1,37 @@
+body {
+  font-family: "saira", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page_wrapper header {
+  width: 100vw;
+  height: 100vh;
+  background: #171717;
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #008080), color-stop(50%, #171717));
+  background: linear-gradient(to top left, #008080 50%, #171717 50%);
+}
+
+.page_wrapper header .title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #008080;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.page_wrapper header .title .left {
+  font-weight: 100;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+.page_wrapper header .title .right {
+  color: #171717;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+/*# sourceMappingURL=main.css.map */
